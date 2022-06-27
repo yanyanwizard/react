@@ -1,4 +1,4 @@
-# Web react Framework 
+# Web react ready to use Framework 
 Bootstrap 5 
 React Modernizr 3.0.0pre (Custom Build) | MIT
 
