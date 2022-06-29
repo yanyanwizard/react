@@ -1,4 +1,7 @@
-
+// Exe4
+import React from "react"
+import ReactDOM from "react-dom"
+//Exe2
 function Navbar(){
 
     return (
@@ -23,16 +26,32 @@ function MainContent(){
     )
 }
 
-ReactDOM.render(
+//// Exe1
+// ReactDOM.render(
+//     <div>
+//        <Navbar />
+//        <MainContent />
+//     </div>
+// , document.getElementById("root"))
+
+
+const bodyMainContant = (
     <div>
-       <Navbar />
-       <MainContent />
+        
+        <Navbar /><MainContent /> 
+        <h1>Hi React Code@Full Learning</h1>
+    
     </div>
-, document.getElementById("root"))
+   ) 
 
 
-const h1= document.createElement('h4') 
-h1.textContent = "I'm Learning React!" 
-h1.className ="header"
-document.getElementById("root").append(h1)
+// Exe3
+
+ReactDOM.render(bodyMainContant, document.getElementById("root"))
+
+
+
+
+
+
 
